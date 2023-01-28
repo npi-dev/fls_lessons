@@ -1,0 +1,59 @@
+@import url("reset.css");
+
+span {
+  color: yellow;
+}
+
+a {
+  color: darkslateblue;
+}
+
+.site-nav-item > * {
+  color: brown;
+}
+
+[href="#"],
+[href="#block-titles"] {
+  color: royalblue;
+}
+
+#block-titles {
+  color: gray;
+}
+
+h2 {
+  color: hotpink;
+}
+
+h3,
+ol {
+  color: darkmagenta;
+}
+
+h2 + h3 {
+  color: deepskyblue;
+}
+
+ul ~ ul {
+  color: darkgreen;
+}
+
+li ul {
+  color: darkseagreen;
+}
+
+.separator {
+  color: greenyellow !important;
+}
+
+.period {
+  color: red;
+}
+
+h3 > .period {
+  color: orange;
+}
+
+p[class] {
+  color: goldenrod;
+}
