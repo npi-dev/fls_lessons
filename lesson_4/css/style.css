@@ -1,0 +1,124 @@
+@import url("reset.css");
+
+/* ====================== ШРИФТИ =============================== */
+
+/*----------------- Підключення шрифтів ----------------------- */
+
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700&display=swap");
+
+/* Підключення вручну */
+
+@font-face {
+  font-family : "Caveat";
+  src         : url("../fonts/Caveat-Bold.woff2") format("woff2"), url("../fonts/Caveat-Bold.woff") format("woff");
+  font-weight : bold;
+  font-style  : normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family : "Caveat";
+  src         : url("../fonts/Caveat-Regular.woff2") format("woff2"), url("../fonts/Caveat-Regular.woff") format("woff");
+  font-weight : normal;
+  font-style  : normal;
+  font-display: swap;
+}
+
+/*----------------- Кастомізація контенту ----------------------- */
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size  : 14px;
+  line-height: 1.5;
+  font-weight: 300;
+  color      : #292929;
+}
+
+p {
+  text-indent: 10px;
+}
+
+.title,
+.subtitle {
+  font-family: "Alegreya", serif;
+}
+
+.title {
+  font-size     : 32px;
+  font-weight   : 700;
+  color         : #5d2200;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.subtitle {
+  font-size     : 24px;
+  font-weight   : 400;
+  color         : #9c3900;
+  letter-spacing: 5px;
+}
+
+.link {
+  font-weight    : bold;
+  color          : cornflowerblue;
+  text-decoration: overline;
+}
+
+.article-header {
+  text-align: center;
+}
+
+.article-header > .title {
+  font-size   : 36px;
+  line-height : 1.7;
+  color       : #db7d03;
+  word-spacing: 10px;
+  text-shadow : 2px 2px 0 #ffe946, -2px -2px 0 #005eff, 0 0 5px #000;
+}
+
+.article-header > .subtitle {
+  font-size: 20px;
+}
+
+.numbers {
+  font-style     : italic;
+  text-decoration: underline;
+}
+
+.quote {
+  font-family: "Caveat", cursive;
+  font-size  : 18px;
+  text-align : right;
+}
+
+.quote-text {
+  color: #006a4e;
+}
+
+.quote-author {
+  font-weight: 700;
+  color      : #002f22;
+  text-align : left;
+}
+
+.quote-text,
+.quote-author {
+  text-indent: 0;
+}
+
+.article-footer > .warning {
+  color: red;
+}
+
+.article-footer > .warning + p {
+  text-transform: capitalize;
+  white-space   : nowrap;
+}
+
+.article-footer > .copyright {
+  font-style     : oblique;
+  text-align     : right;
+  text-transform : lowercase;
+  text-decoration: line-through;
+}
