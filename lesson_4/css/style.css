@@ -12,7 +12,7 @@
 @font-face {
   font-family : "Caveat";
   src         : url("../fonts/Caveat-Bold.woff2") format("woff2"), url("../fonts/Caveat-Bold.woff") format("woff");
-  font-weight : bold;
+  font-weight : 700;
   font-style  : normal;
   font-display: swap;
 }
@@ -20,7 +20,7 @@
 @font-face {
   font-family : "Caveat";
   src         : url("../fonts/Caveat-Regular.woff2") format("woff2"), url("../fonts/Caveat-Regular.woff") format("woff");
-  font-weight : normal;
+  font-weight : 400;
   font-style  : normal;
   font-display: swap;
 }
@@ -60,7 +60,7 @@ p {
 }
 
 .link {
-  font-weight    : bold;
+  font-weight    : 700;
   color          : cornflowerblue;
   text-decoration: overline;
 }
